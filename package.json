@@ -1,0 +1,16 @@
+{
+  "name": "prototype-speechRecognize",
+  "version": "1.0.0",
+  "description": "A prototype of a speechRecognition app",
+  "main": "server.js",
+  "author": "knitedeveloper",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="chat.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="chat.js"></script>
+
+    <!-- <ul id="messages"></ul>-->
+
+
+
+    <div id="chat" class="chat">
+        <div id="chatHistory" class="chatHistory"></div>
+    </div>
+    <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
+
+</body>
+
+</html>
+
+<!-- <div id="answer" style="">
+    <div class="answer">
+        <div class="spacer"></div>
+        <div class="balloon">I am 30 years old</div>
+        <div class="circleBot">
+            <div class="name"></div>
+        </div>
+    </div>
+</div> -->
